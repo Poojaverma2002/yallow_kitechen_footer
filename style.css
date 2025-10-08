@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    width: 100%;
+    /* height: 500px; */
+    background-color: #3F4255;
+}
+
+.footer_container{
+    width: 1258px;
+    /* border: 1px solid gray; */
+    margin: auto;
+    padding-top: 48px;
+    display: flex;
+    margin-bottom: 49px;
+}
+figure{
+    width: 184px;
+    position: relative;
+    z-index: 888888;
+}
+.logo_color{
+    background-color: #B79C10;
+    width: 87px;
+    height: 13px;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    z-index: -1;
+}
+figure a logo{
+    width: 184px;
+    height: 24px;
+    /* z-index: 22222; */
+}
+.border_container{
+    width: 296px;
+    border-bottom: 1px solid #D4D7E5;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.footer_content_container{
+    margin-left: 184px;
+    /* width: 500px; */
+    display: flex;
+    justify-content: space-between;
+    /* height: 100px; */
+    /* border: 1px solid blue; */
+
+}
+.footer_content{
+    margin-right: 83px;
+}
+
+.footer_content h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 24px;
+}
+.footer_content p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #D4D7E5;
+    width: 150px;
+    font-family: "Martel Sans", sans-serif;
+
+}
+.footer_content a{
+    text-decoration: none;
+    color:#D4D7E5 ;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer_info{
+    width: 1260px;
+    margin-top: 49px;
+    margin-bottom: 48px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer_info figure a img{
+    margin-right: 24px;
+}
+.last_div{
+    display: flex;
+}
+.last_div p{
+    margin-right: 60px;
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Martel Sans", sans-serif;
+
+}
