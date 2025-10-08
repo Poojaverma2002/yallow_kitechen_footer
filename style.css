@@ -6,7 +6,55 @@
     font-family: poppins;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* section */
+/*.map-contain-map{
+    width: 1440px;
+    margin: auto;
+
+}*/
+.map-contain-map img{
+    width:1280px;
+    height:600px;
+    margin: auto;  
+}
+.map-contain-map{
+    width: 1440px;
+    margin: auto;
+    padding:0px 81px;
+
+   /* margin-bottom: 30px;*/
+}
+.food-boxses-contain{
+    width: 1256px; 
+    margin: auto; 
+}
+.food-boxses-contain p{
+    width: 1250px;
+    font-size:15px;
+    font-weight: 100;
+}
+.food-boxses-contain p span{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 64px;
+}
+.food-small-boxses{
+    width: 1256px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.kitchens-box-1 img{
+    width: 296px;
+    height: 299px;
+}
+.food-small-boxses span{
+    gap:10px;
+}
+
 
 footer{
     width: 100%;
